@@ -7,8 +7,8 @@ image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/613-urban-
 x-kinRank: "7"
 x-alexaRank: "37027"
 tags: Display
-created: "2018-08-26"
-modified: "2018-08-26"
+created: "2018-08-27"
+modified: "2018-08-27"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/display/master/_listings/urban-mapping/apis.md
 specificationVersion: "0.14"
 apis: []

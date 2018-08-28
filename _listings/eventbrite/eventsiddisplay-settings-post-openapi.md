@@ -1,9 +1,10 @@
+---
 swagger: "2.0"
 x-collection-name: Eventbrite
-x-complete: 1
+x-complete: 0
 info:
-  title: Eventbrite
-  description: create-manage--promote-events--add-eventmanagement-features-to-your-site--show-the-world-what-exciting-things-are-happening-around-them-
+  title: Eventbrite Post Events Display Settings
+  description: Updates the display settings for an event.
   version: 1.0.0
 host: www.eventbrite.com
 basePath: /%7Bdata-type%7D/
@@ -82,3 +83,17 @@ paths:
       - Events
       - Display
       - Settings
+x-streamrank:
+  polling_total_time_average: 0
+  polling_size_download_average: 0
+  streaming_total_time_average: 0
+  streaming_size_download_average: 0
+  change_yes: 0
+  change_no: 0
+  time_percentage: 0
+  size_percentage: 0
+  change_percentage: 0
+  last_run: ""
+  days_run: 0
+  minute_run: 0
+---

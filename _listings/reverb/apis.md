@@ -17,8 +17,8 @@ image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/1
 x-kinRank: "8"
 x-alexaRank: "0"
 tags: Display
-created: "2018-08-26"
-modified: "2018-08-26"
+created: "2018-08-27"
+modified: "2018-08-27"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/display/master/_listings/reverb/apis.md
 specificationVersion: "0.14"
 apis:
@@ -35,6 +35,17 @@ apis:
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/display/master/_listings/reverb/currenciesdisplay-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/display/master/_listings/reverb/currenciesdisplay-get-openapi.md
+- name: reverb - Get Articles Slug
+  x-api-slug: articlesslug-get
+  description: Display a single article
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/145_logo.png
+  humanURL: https://helloreverb.com/app
+  baseURL: https://api.reverb.com//api
+  tags: Dictionary, Spelling, API LIfeyclessss, Stack Network, Commerce, Relative
+    Data, Service API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/display/master/_listings/reverb/articlesslug-get-openapi.md
 x-common:
 - type: x-api-gallery
   url: http://respoke.api.gallery.streamdata.io

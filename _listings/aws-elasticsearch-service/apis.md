@@ -12,11 +12,51 @@ image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/l
 x-kinRank: "10"
 x-alexaRank: "0"
 tags: Display
-created: "2018-08-26"
-modified: "2018-08-26"
+created: "2018-08-27"
+modified: "2018-08-27"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/display/master/_listings/aws-elasticsearch-service/apis.md
 specificationVersion: "0.14"
-apis: []
+apis:
+- name: AWS Elasticsearch Service API - List Domain Names
+  x-api-slug: 20150101domain-get
+  description: Displays the names of all Amazon ES domains owned by the current user.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Analytics_AmazonElasticsearchService.png
+  humanURL: https://aws.amazon.com/elasticsearch-service/
+  baseURL: :///
+  tags: Amazon Web Services, Search, Logging, Documents, Stack Network, API Service
+    Provider, API Service Provider, API Provider, Profiles, Relative Data, Service
+    API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/display/master/_listings/aws-elasticsearch-service/20150101domain-get-openapi.md
+- name: AWS Elasticsearch Service API - Describe Elasticsearch Domain Config
+  x-api-slug: 20150101esdomaindomain-nameconfig-get
+  description: |-
+    Displays the configuration of an Amazon ES domain. Use the HTTP GET method
+                    with this operation.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Analytics_AmazonElasticsearchService.png
+  humanURL: https://aws.amazon.com/elasticsearch-service/
+  baseURL: :///
+  tags: Amazon Web Services, Search, Logging, Documents, Stack Network, API Service
+    Provider, API Service Provider, API Provider, Profiles, Relative Data, Service
+    API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/display/master/_listings/aws-elasticsearch-service/20150101esdomaindomain-nameconfig-get-openapi.md
+- name: AWS Elasticsearch Service API - List Tags
+  x-api-slug: 20150101tagsarndomain-arn-get
+  description: |-
+    Displays all of the tags for an Amazon ES domain. Use the GET HTTP method
+                    with this operation.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Analytics_AmazonElasticsearchService.png
+  humanURL: https://aws.amazon.com/elasticsearch-service/
+  baseURL: :///
+  tags: Amazon Web Services, Search, Logging, Documents, Stack Network, API Service
+    Provider, API Service Provider, API Provider, Profiles, Relative Data, Service
+    API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/display/master/_listings/aws-elasticsearch-service/20150101tagsarndomain-arn-get-openapi.md
 x-common:
 - type: x-api-gallery
   url: http://aws.elasticache.api.gallery.streamdata.io
